@@ -118,6 +118,15 @@
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>credentials</artifactId>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/matrix-auth -->
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>matrix-auth</artifactId>
+      <version>3.2.4</version>
+      <scope>test</scope>
+    </dependency>
+
     <!-- plugin dependencies -->
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
